@@ -10,7 +10,7 @@ const port = 3000;
 (async () => {
 	try {
 		const db = await MongoClient.connect(
-			'mongodb+srv://dbuser:TestTu8e@timmynet-zojxp.mongodb.net/test?retryWrites=true',
+			'mongodb+srv://dbuser:<ADD PASSWORD HERE>@timmynet-zojxp.mongodb.net/test?retryWrites=true',
 			{ useNewUrlParser: true }
 		);
 		console.log('We are connected');
